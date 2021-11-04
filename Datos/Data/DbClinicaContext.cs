@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Datos.Models;
 using System.Data.Entity;
-using Datos.Models;
 namespace Datos.Data
 {
     public class DbClinicaContext : DbContext
@@ -15,6 +10,6 @@ namespace Datos.Data
 
         public DbSet<Especialidad> Especialidades { get; set; }
 
-        public DbClinicaContext(): base("KeyDbClinica") { }
+        public DbClinicaContext() : base("KeyDbClinica") { }
     }
 }

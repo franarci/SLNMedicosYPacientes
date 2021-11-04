@@ -115,7 +115,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Data\Datos.csproj">
+    <ProjectReference Include="..\Datos\Datos.csproj">
       <Project>{4e274127-6083-422b-9144-f1f4775f7549}</Project>
       <Name>Datos</Name>
     </ProjectReference>
